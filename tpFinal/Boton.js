@@ -9,15 +9,6 @@ class Boton {
   }
 
   dibujar() {
-    /*rectMode(CENTER);
-    fill(198, 122, 64);
-    stroke(0);
-    rect(this.posX, this.posY, this.w, this.h);
-    fill(0);
-    textAlign(CENTER, CENTER);
-    textSize(18);
-    noStroke();
-    text(this.texto, this.posX, this.posY);*/
     imageMode(CENTER, CENTER);
     image(this.img, this.posX, this.posY, this.w, this.h);
   }
